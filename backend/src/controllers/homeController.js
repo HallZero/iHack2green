@@ -1,3 +1,3 @@
 exports.homePage = (req,res) => {
-    res.send('Hello World')
+    res.render('home')
 }
