@@ -18,19 +18,23 @@ def calcular_emissao_evitada_anual(hidrogenio_verde_anual, fonte_convencional_an
     return emissao_evitada_anual
 
 
-# Exemplo de uso das funções
-hidrogenio_verde_consumido = 100  # Quantidade de hidrogênio verde consumido em MJ
-# Quantidade de energia proveniente da fonte convencional em MJ
-fonte_convencional_utilizada = 100
+# Entrada de dados
+hidrogenio_verde_consumido = float(
+    input("Digite a quantidade de hidrogênio verde consumido (em MJ): "))
+fonte_convencional_utilizada = float(input(
+    "Digite a quantidade de energia proveniente da fonte convencional (em MJ): "))
+ano = int(input("Digite o ano: "))
 
+# Cálculo da emissão evitada
 emissao_evitada = calcular_emissao_evitada(
     hidrogenio_verde_consumido, fonte_convencional_utilizada)
 emissao_evitada_anual = calcular_emissao_evitada_anual(
     hidrogenio_verde_consumido * 365, fonte_convencional_utilizada * 365)
 
+# Saída de dados
 print(f"Ao utilizar {hidrogenio_verde_consumido} MJ de hidrogênio verde em vez da fonte convencional, "
-      f"seria evitada a emissão de {emissao_evitada} kg de CO2.")
+      f"seria evitada a emissão de {emissao_evitada} kg de CO2 no ano de {ano}.")
 
 print(f"Projeção anual:")
 print(f"Ao utilizar {hidrogenio_verde_consumido * 365} MJ de hidrogênio verde em vez da fonte convencional, "
-      f"seria evitada a emissão de {emissao_evitada_anual} kg de CO2.")
+      f"seria evitada a emissão de {emissao_evitada_anual} kg de CO2 no ano de {ano}.")
