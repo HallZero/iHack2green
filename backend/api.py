@@ -24,6 +24,10 @@ def analises():
 def login():
     return render_template('login.html')
 
+@app.get('/menu')
+def menu():
+    return render_template('menu.html')
+
 @app.get('/compras')
 def compras():
     return render_template('compras.html')

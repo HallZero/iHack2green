@@ -70,20 +70,6 @@ button{
     margin-right: 16px;
 }
 
-.circle{
-    width: 100px;
-    height: 100px;
-    border: 10px solid #000; /* Adjust border thickness as needed */
-    border-radius: 50%;
-    background-color: transparent; 
-}
-
-.circle h2 {
-    color: white;
-    margin: 0; /* Remove default margin from the heading */
-    align-items: center;
-  }
-
 .info-container {
     display: flex;
     align-items: center;
@@ -147,31 +133,66 @@ button{
     }
   }
 
-  .circular-progress{
-    position: relative;
-    height: 250px;
-    width: 250px;
-    background-color: #fff;
+.menu-icon{
+    width: 40%;
+    height: 40%;
     border-radius: 50%;
-    background: conic-gradient(#006B40 14deg, #1B4D3E 0deg);
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-
-  .circular-progress::before{
-    content: "";
-    position: absolute;
-    height: 210px;
-    width: 210px;
-    border-radius: 50%;
-    background-color: #006B40;
-  }
-
-  .progress-value{
-    position: relative;
-    font-size: 40px;
-    font-weight: 600;
-    color: #fff;
+    margin-right: 16px;
   }
   
+  .info-container-menu {
+    text-align: center;
+    width: 40%;
+    height: 40%;
+  }
+  
+  .menu-icon img {
+    max-width: 100%;
+    max-height: 100%;
+    padding: auto;
+  }
+
+  .menu-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height to fit your needs */
+  }
+
+  div a{
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  a.info-container-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .menu-icon img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .menu-icon h2 {
+    color: white;
+    margin-top: 10px;
+  }
