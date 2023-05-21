@@ -1,22 +1,47 @@
-# LayerZero
+# iHack2green
 
 
-## 📝 Solução  para transações financeiras internacionais utilizando o BTG Dol
-Este projeto tem como objetivo realizar  transações financeiras internacionais, que permita a conversão rápida de capital com um custo baixo. Para isso, usamos criamos a LayerZero aplicativo que realiza pix em qualquer paíse do mundo utilizando BTG Dol.
 
-## Video Demo
-https://youtu.be/6qLFDFEbbtU
+## Visão Geral
 
-## 🔑 Como executar
-O projeto ainda está em desenvolvimento e, portanto, não está pronto para ser executado por pessoas não técnicas.
-```bash
-# Clone este repositório
-$ git clone <https://github.com/EnzoPortela/layer-zero>
 
-# Instale as dependências
-$ npm install
+## Tecnologias Utilizadas
+* HTML, CSS e JavaScript para a aplicação
+* Python como servidor backend 
+* Solidity para smart contract
 
-# Iniciar o projeto
-$ npx expo start
+## Recursos
 
-```
+
+## Fluxograma
+
+É assim que o aplicativo funciona.
+1. 
+
+2. 
+
+![logo token NEWSCoin fundo preto]()
+
+
+
+3. 
+4. 
+
+![diagrama de blocos]()
+
+
+
+## Começando
+## Requisitos
+
+### Front-end 
+
+
+## Uso
+### Interface de usuário
+
+
+## Team:
+[]
+[]
+[]
