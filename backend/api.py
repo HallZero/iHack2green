@@ -24,9 +24,9 @@ def analises():
 def menu():
     return render_template('menu.html')
 
-@app.get('/compras')
+@app.get('/h2v')
 def compras():
-    return render_template('compras.html')
+    return render_template('buyh2v.html', quantity='10Kg', price='$9,900.00',dealer='H2V', freight='$100.00', total='$1,000.00')
 
 @app.get('/configuracoes')
 def settings():
