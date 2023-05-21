@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculo de Economia de CO2</title>
+    <title>Cálculo de Economia de CO2</title>
     <style>
         * {
             box-sizing: border-box;
@@ -17,27 +17,42 @@
             padding: 0;
         }
 
+        .logo-esquerda {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 50px;
+            height: 50px;
+        }
+
+        .logo-direita {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 50px;
+            height: 50px;
+        }
+
         .container {
             max-width: 600px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 10px;
             background-color: #fff;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: relative;
         }
 
         h1 {
             text-align: center;
             margin-bottom: 30px;
             color: #000000;
-            /* Verde escuro */
         }
 
         label {
             display: block;
             margin-bottom: 10px;
             color: #000000;
-            /* Verde */
         }
 
         input[type="number"] {
@@ -52,7 +67,6 @@
         button {
             padding: 12px 24px;
             background-color: #000000;
-            /* Verde */
             color: white;
             border: none;
             border-radius: 3px;
@@ -63,7 +77,6 @@
 
         button:hover {
             background-color: #000000;
-            /* Verde mais escuro */
         }
 
         #output {
@@ -80,14 +93,13 @@
             color: #333;
         }
 
-        /* Estilos adicionais */
         body {
             background-image: linear-gradient(to right, #006B40, #006B40);
-            /* Gradiente de cores relacionadas ao hidrogênio verde */
             height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
+            position: relative;
         }
 
         .container {
@@ -101,8 +113,11 @@
 </head>
 
 <body>
+    <img class="logo-esquerda" src="./Voltar.svg" alt="Logo Esquerda">
+    <img class="logo-direita" src="./Union.svg" alt="Logo Direita">
+
     <div class="container">
-        <h1>Calculo de Economia de CO2</h1>
+        <h1>Cálculo de Economia de CO2</h1>
 
         <label for="hidrogenio-verde">Quantidade de Hidrogênio Verde Consumido por Ano (em kg):</label>
         <input type="number" id="hidrogenio-verde"
