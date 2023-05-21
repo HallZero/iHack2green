@@ -14,6 +14,10 @@ Disponível em: https://ihack2green.com.br/#hackathon (Data de acesso em 21/05/2
 * C++ para o embarcado
 
 ## Recursos
+
+Para o processo de ideação e produção do mockup, utilizamos o figma:
+https://www.figma.com/file/qWhTXbim1ZAHCv8mNutRjU/VerdiLabs?type=design&node-id=0%3A1&t=fD2yEqTC0lkJOKPu-1
+
 ## Arquitetura da Solução
 
 A solução é composta por várias tecnologias interligadas para fornecer um sistema completo. A arquitetura envolve os seguintes componentes:
