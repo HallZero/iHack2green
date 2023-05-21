@@ -14,15 +14,11 @@ Base.metadata.create_all(engine)
 
 @app.get('/')
 def home():
-    return render_template('index.html')
+    return render_template('login.html')
 
 @app.get('/analises')
 def analises():
     return render_template('analysis.html', name='Alice', emission='66')
-
-@app.get('/login')
-def login():
-    return render_template('login.html')
 
 @app.get('/menu')
 def menu():
@@ -31,6 +27,15 @@ def menu():
 @app.get('/compras')
 def compras():
     return render_template('compras.html')
+
+@app.get('/configuracoes')
+def settings():
+    return render_template('perfil.html')
+
+@app.get('/calculadora')
+def calculator():
+    return render_template('calculator.html')
+
 
 @app.route('/data', methods=['GET', 'POST'])
 def data():

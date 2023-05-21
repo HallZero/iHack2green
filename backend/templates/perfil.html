@@ -125,7 +125,7 @@
 <body>
     <div class="container">
         <div class="navbar">
-            <button class="arrow-button">
+            <button class="arrow-button" onclick="goBack()">
                 <span class="arrow-icon"></span>
             </button>
         </div>
@@ -163,6 +163,13 @@
             </div>
         </div>
     </div>
+
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+
 </body>
 
 </html>

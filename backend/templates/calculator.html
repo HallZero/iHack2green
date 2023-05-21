@@ -109,12 +109,35 @@
         button:focus {
             outline: none;
         }
+
+        .arrow-icon {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-top: 2px solid #fff;
+            border-left: 2px solid #fff;
+            transform: rotate(-45deg);
+            margin-right: 5px;
+        }
+
+        .arrow-button {
+            background-color: #006B40;
+            border: 1px solid white;
+            border-radius: 4px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
     </style>
 </head>
 
 <body>
-    <img class="logo-esquerda" src="./Voltar.svg" alt="Logo Esquerda">
-    <img class="logo-direita" src="./Union.svg" alt="Logo Direita">
+    <div class="navbar">
+        <button class="arrow-button" onclick="goBack()">
+            <span class="arrow-icon"></span>
+        </button>
+    </div>
+    <img class="logo-direita" src="../static/img/Union.svg" alt="Logo Direita">
 
     <div class="container">
         <h1>Cálculo de Economia de CO2</h1>
@@ -156,6 +179,10 @@
                 economiaCO2 += hidrogenioVerde * taxaEmissao;
             }
             return economiaCO2.toFixed(2);
+        }
+
+        function goBack() {
+            window.history.back();
         }
     </script>
 </body>
