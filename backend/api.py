@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify, render_template
 from models.h2v import h2v
 from sqlalchemy import create_engine, delete
 from sqlalchemy.orm import Session, sessionmaker
+from models.base import Base
 
 app = Flask(__name__)
 
@@ -9,13 +10,15 @@ engine = create_engine("sqlite+pysqlite:///reports.db", echo=True)
 Session = sessionmaker(bind=engine)
 session = Session()
 
+Base.metadata.create_all(engine)
+
 @app.get('/')
 def home():
-    return render_template('index.html', name='Alice', emission='66')
+    return render_template('index.html')
 
 @app.get('/analises')
 def analises():
-    return render_template('pb.html')
+    return render_template('analysis.html', name='Alice', emission='66')
 
 @app.get('/login')
 def login():
