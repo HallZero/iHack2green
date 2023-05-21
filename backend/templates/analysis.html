@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertilabs</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <button class="arrow-button" onclick="goBack()">
+            <span class="arrow-icon"></span>
+          </button>
+        <img src="../static/img/account.png" alt="Profile Picture" class="pfl-ico" />
+        <h1 style="color: white;">Analysis</h1>
+    </nav>
+
+    <div>
+        <h3 class="title">Emissions</h3>
+        <container class="info-container">
+            <div>
+                <div class="circular-progress">
+                    <span class="progress-value">
+                        0%
+                    </span>
+                </div>
+            </div>
+            <p style="color: white;">
+                {{name}}, Your Carbon emission were reduced by {{emission}}% this month. You're doing great! 
+            </p>
+        </container>
+    </div>
+    <div>
+        <h3 class="title">Balance</h3>
+        <container class="info-container">
+            <div>
+                <div class="circular-progress">
+                    <span class="progress-value">
+                        0%
+                    </span>
+                </div>
+            </div>
+            <p style="color: white;">
+                Money Saved until now. Way to go! 
+            </p>
+        </container>
+    </div>
+
+    <div>
+        <h3 class="title">Projections</h3>
+        <container class="info-container">
+            <div>
+                <div class="circular-progress">
+                    <span class="progress-value">
+                        0%
+                    </span>
+                </div>
+            </div>
+            <p style="color: white;">
+                You’ll save up to this value after a Year using H2V. Keep it going!
+            </p>
+        </container>
+    </div>
+
+    <script src="../static/main.js"></script>
+</body>
+</html>
