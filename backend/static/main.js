@@ -15,3 +15,8 @@ let progress = setInterval(() => {
         clearInterval(progress);
     }
 }, speed);
+
+function goBack() {
+    window.history.back();
+}
+  
