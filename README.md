@@ -100,6 +100,16 @@ Renderiza o template perfil.html para exibir a página de configurações de per
 Renderiza o template calculator.html para exibir a calculadora de economia de dinheiro mensal.
 Essas rotas fornecem os endpoints necessários para cada funcionalidade do sistema, permitindo que o frontend renderize os templates correspondentes de acordo com as requisições do usuário.
 
+## Embarcado
+
+<p style='align: center'>
+    <img src='assets\img\circuit.png' alt="Solução embarcada">
+</p>
+
+Para nosso projeto de incentivo a utilização do hidrogênio verde, utilizamos um sistema embarcado para receber os dados de energia que estão sendo economizados ao utilizar esse meio sustentável de combustível.
+
+Para esse protótipo, fizemos uma simulação no simulador wokwi de um microcontrolador ESP32 que recebe dados e os envia para uma API, porém, como este não possuí o componente MQ-7 para realização da medição de gáses, optamos por usar outro sensor (LDR) para simular os dados de entrada do dispositivo. Ao receber esses dados, ele se conecta com a rede local, e os envia para o Backend onde vão ser processados e analisados.
+
 
 ## Team:
 - [Emanuel de Oliveira Costa](https://www.linkedin.com/in/emanuel-45b637185/)
