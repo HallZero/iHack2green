@@ -100,6 +100,52 @@ Renderiza o template perfil.html para exibir a página de configurações de per
 Renderiza o template calculator.html para exibir a calculadora de economia de dinheiro mensal.
 Essas rotas fornecem os endpoints necessários para cada funcionalidade do sistema, permitindo que o frontend renderize os templates correspondentes de acordo com as requisições do usuário.
 
+
+## Blockchain
+
+O contrato "comprarH2V" é um contrato inteligente escrito em Solidity que facilita a compra e venda de hidrogênio entre produtores e compradores. Ele implementa um conjunto de regras de negócio para garantir a segurança e a integridade das transações.
+
+### Funcionalidades
+
+1. Adicionar Produtores e Compradores
+Os administradores do contrato (Verdelabs) podem adicionar produtores e compradores ao sistema. Os produtores são responsáveis por fornecer o hidrogênio, enquanto os compradores desejam adquiri-lo.
+
+2. Definir Taxa Administrativa
+A Verdelabs pode definir a taxa administrativa aplicada a cada transação. Essa taxa é deduzida do valor total da compra e é usada para cobrir os custos de operação do contrato.
+
+3. Saldo dos Produtores e Compradores
+Os produtores e compradores podem verificar seus saldos no contrato. Os produtores podem visualizar o valor total acumulado com a venda de hidrogênio, enquanto os compradores podem ver o valor total de fundos que depositaram para a compra.
+
+4. Retirar Fundos Administrativos
+A Verdelabs pode retirar o valor total acumulado das taxas administrativas para sua conta.
+
+5. Solicitar Compra de Hidrogênio
+Os compradores podem solicitar a compra de hidrogênio de um produtor específico. Eles especificam a quantidade desejada e o valor total que estão dispostos a pagar.
+
+6. Aprovar ou Rejeitar Solicitações de Compra
+Os produtores têm o poder de aprovar ou rejeitar as solicitações de compra de hidrogênio. Eles podem revisar as solicitações pendentes e tomar uma decisão com base em sua disponibilidade e critérios específicos.
+
+7. Completar a Compra de Hidrogênio
+Quando uma solicitação de compra é aprovada, o comprador pode finalizar a compra, enviando o valor total especificado. O valor é dividido entre o produtor e a taxa administrativa, com o produtor recebendo a maior parte.
+
+8. Retirar Fundos
+Tanto os produtores quanto os compradores podem retirar os fundos acumulados em suas contas. Os produtores podem sacar os valores referentes às vendas de hidrogênio, enquanto os compradores podem sacar os valores restantes de suas compras após a dedução da taxa administrativa.
+
+### Requisitos
+Solidity ^0.8
+OpenZeppelin: SafeMath Library
+### Utilização
+1. Faça o deploy do contrato "comprarH2V" em uma blockchain compatível com Ethereum.
+
+2. Defina a taxa administrativa e o endereço do proprietário (Verdelabs) durante o deploy do contrato.
+
+3. Adicione produtores e compradores ao contrato usando as funções addMemberProducer e addMemberBuyer, respectivamente.
+
+4. Os produtores podem visualizar seus saldos usando a função viewUserBalanceProducer.
+
+5. Os compradores podem visualizar seus saldos usando a função viewUserBalanceBuyer.
+
+6. Os produtores podem aprovar ou rejeitar as solicitações
 ## Embarcado
 
 <p style='align: center'>
