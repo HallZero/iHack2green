@@ -37,7 +37,7 @@ Essa arquitetura permite que os usuários interajam com o sistema através do fr
 ## Front-end 
 
 <p style='align: center'>
-    <img src='assets\img\Front-Lalc.png' alt="Login">
+    <img src='assets\img\Front-Login.png' alt="Login">
 </p>
 <p style='align: center'>
     <img src='assets\img\Front-Menu.png' alt="Menu">
@@ -98,8 +98,8 @@ Essas rotas fornecem os endpoints necessários para cada funcionalidade do siste
 
 
 ## Team:
-[Emanuel de Oliveira Costa](https://www.linkedin.com/in/emanuel-45b637185/)
-[Filipi Enzo Siqueira Kikchi](https://www.linkedin.com/in/filipi-enzo-siqueira-kikuchi-1811a9213/)
-[]()
-[Lucas Britto](https://www.linkedin.com/in/lucas-britto-376665208/)
-[Vitória Rodrigues de Oliveira](https://www.linkedin.com/in/vit%C3%B3ria-rodrigues-de-oliveira-bb955921b/)
+- [Emanuel de Oliveira Costa](https://www.linkedin.com/in/emanuel-45b637185/)
+- [Filipi Enzo Siqueira Kikchi](https://www.linkedin.com/in/filipi-enzo-siqueira-kikuchi-1811a9213/)
+- [Igor Garcia](https://www.linkedin.com/in/igor-garcia-126a1823b/?jobid=1234)
+- [Lucas Britto](https://www.linkedin.com/in/lucas-britto-376665208/)
+- [Vitória Rodrigues de Oliveira](https://www.linkedin.com/in/vit%C3%B3ria-rodrigues-de-oliveira-bb955921b/)
