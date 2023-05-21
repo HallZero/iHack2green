@@ -26,13 +26,13 @@
 
         .container {
             max-width: 600px;
-            margin: 0 auto;
-            padding: 110px;
-            background-color: #fff;
-            border-radius: 5px;
+            margin: 0;
             position: relative;
-            ;
-
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width:100%;
+            height: 100%;
         }
 
         h1 {
@@ -66,42 +66,102 @@
             border-radius: 4px;
             padding: 10px 20px;
             font-size: 16px;
+            cursor: pointer;
         }
 
         .image {
             display:contents
         }
+
+        .infoProfile{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .infoProfile p{
+            margin: 0;
+        }
+
+        .labelProfile{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .infoProfile img{
+            width: 35px;
+            height: 35px;
+            margin-right: 10px;
+        }
+
+        .navbar{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            height: 10%;
+            padding: 12px 0px 12px 0px;
+            margin-bottom: 15px;
+        }
+
+        .profiles{
+            background-color: #fff;
+            width:95%;
+            border-radius: 5px;
+            padding: 15px;
+            height: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .profileImg{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 100px;
+        }
     </style>
 </head>
 
 <body>
-    <button class="arrow-button">
-        <span class="arrow-icon"></span>
-    </button>
     <div class="container">
-        <div id="person-icon" class="d-flex justify-content-center">
-            <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor"
-                class="bi bi-person-circle" viewBox="0 0 16 16">
-                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                <path fill-rule="evenodd"
-                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
-            </svg>
+        <div class="navbar">
+            <button class="arrow-button">
+                <span class="arrow-icon"></span>
+            </button>
         </div>
-        <p class="image">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-                class="bi bi-person-circle" viewBox="0 0 16 16">
-                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 00" />
-                <path fill-rule="evenodd"
-                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
-            </svg>
-            Perfil:
-        </p>
-
-        <label>Alice Beatriz</label>
-        <h3>Data de nascimento:</h3>
-        <label>21/05/2000</label>
-        <h3>Email:</h3>
-        <label>Aliceb123@email.com</label>
+        <div class="profiles">
+            <div id="person-icon" class="profileImg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor"
+                    class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                    <path fill-rule="evenodd"
+                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                </svg>
+            </div>
+            <div class="infoProfile">
+                <img src="../static/img/name.png" alt="nameIcon">
+                <div class="labelProfile">
+                    <p><strong>Name</strong></p>
+                    <p>Alice Beatriz</p>
+                    <br><br>
+                </div>
+            </div>
+            <div class="infoProfile">
+                <img src="../static/img/calendar.png" alt="calendarIcon">  
+                <div class="labelProfile">
+                    <p><strong>Birthday Date</strong></p>
+                    <p>20/05/2023</p>
+                    <br><br>
+                </div>
+            </div>
+            <div class="infoProfile">
+                <img src="../static/img/email.png" alt="emailIcon">
+                <div class="labelProfile">
+                    <p><strong>Email</strong></p>
+                    <p>Aliceb123@email.com</p>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
