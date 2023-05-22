@@ -4,7 +4,56 @@
 Disponível em: https://ihack2green.com.br/#hackathon (Data de acesso em 21/05/2023)
 
 ## Visão Geral
+## Entendimento do Negócio:
+### Matriz SWOT: 
+A Matriz SWOT é uma ferramenta que auxilia na identificação fatores internos e externos para desenvolver estratégias mais eficazes, e complementar análises de negócio juntamente com outras ferramentas.
+<p style='align: center'>
+    <img src='./assets/img/SWOT.png'width = "700px" height="700px">
+</p>
 
+
+## Entendimento do Usuário:
+A fim de criar artefatos de planejamento estratégico capazes de nortear o entendimento da experiência do usuário da solução, desenvolvemos duas personas. 
+### Personas: 
+Personas são representações dos usuários ideais da nossa solução, criadas com base em dados reais, com o objetivo de ajudar a entender e atender às necessidades, desejos e comportamentos de forma mais efetiva. Por nossa solução ter foco tanto em compra quanto em monitoramento, desenvolvemos 2 personas para representarmos esses dois caminhos.
+
+<p style='align: center'>
+    <img src='./assets/img/persona1.png' width = "200px" height="200px">
+</p>
+
+                                                                 
+**Nome:** Isabela Rodrigues
+
+**Idade:** 32 anos
+
+**Profissão:** Engenheira Ambiental
+
+**Biografia:** Isabela é uma engenheira ambiental e trabalha no setor há 5 anos dedicada a promover práticas sustentáveis na indústria siderúrgica. Ela trabalha em uma empresa especializada em produção de aço, e é responsável por implementar estratégias de redução de emissões de carbono e buscar incentivos fiscais para a empresa.
+
+**Necessidade/objetivo:** 
+
+- Encontrar uma maneira eficiente de adquirir hidrogênio verde para suprir as demandas sustentáveis da empresa para reduzir as emissões de carbono e consequentemente fortalecer sua posição no mercado. Para isso, gostaria de assegurar compras garantidas
+- Garantir que a empresa esteja em conformidade com as regulamentações ambientais por meio de relatórios que evidenciem a utilização do H2V e assim, aproveitar os incentivos fiscais disponíveis.
+
+
+<p style='align: center'>
+    <img src='./assets/img/persona2.png' width = "200px" height="200px">
+</p>
+
+
+**Nome:** André Britto
+
+**Idade:** 29 anos
+
+**Profissão:** Diretor de Vendas
+
+**Biografia:** André trabalha em um empresa especializada na produção e fornecimento de hidrogênio verde que busca expandir seu negócio e aumentar sua participação no mercado de energia limpa.
+
+**Necessidade/objetivo:** 
+
+- Oferecer um canal de vendas intuitivo e simples que facilite a compra do H2V.
+- Garantir um meio de fazer a gestão do financiamento antecipado das compras do H2V.
+- Realizar análises detalhadas dos processos de produção do hidrogênio verde para identificar novas oportunidades de integração.
 
 
 ## Tecnologias Utilizadas
