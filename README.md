@@ -4,6 +4,9 @@
 Disponível em: https://ihack2green.com.br/#hackathon (Data de acesso em 21/05/2023)
 
 ## Visão Geral
+A visão geral do projeto visa auxiliar e facilitar a compra e a venda de hidrogênio verde no Brasil. Por meio da solução proposta, pretende-se ajudar no monitoramento do uso do H2V, consequentemente promovendo seu uso através de benefícios de mercado. A solução consiste em uma aplicação web na qual usa dados captados por um sistema IoT para fazer a fiscalização e tratamento destes a fim de servir como base para a aplicação de insentivos fiscais e emissão de certificados. 
+A plataforma também contempla um sistema de compra do H2V utilizando blockchain para garantir a segurança das transações. De modo geral, a plataforma tem como objetivo impulsionar o mercado de hidrogênio verde no Brasil, oferecendo uma solução abrangente que engloba desde o monitoramento do uso do H2V até a facilitação das transações comerciais. 
+Dessa forma, a visão geral do projeto é estabelecer uma infraestrutura sólida para o mercado de hidrogênio verde no Brasil, integrando tecnologias inovadoras como IoT e blockchain. Isso proporcionará um ambiente confiável e eficiente para a compra e venda de H2V, incentivando a transição para uma matriz energética mais sustentável.
 ## Entendimento do Negócio:
 ### Matriz SWOT: 
 A Matriz SWOT é uma ferramenta que auxilia na identificação fatores internos e externos para desenvolver estratégias mais eficazes, e complementar análises de negócio juntamente com outras ferramentas.
